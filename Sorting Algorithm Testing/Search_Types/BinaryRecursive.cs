@@ -9,6 +9,11 @@ namespace Sorting_Algorithm_Testing.Search_Types
 {
     class BinaryRecursive : ISearch_Base
     {
+        public override string ToString()
+        {
+            return "Binary Recursive";
+        }
+
         public List<Test_Results> results = new List<Test_Results>();
         public List<Test_Results> InternalResults
         {

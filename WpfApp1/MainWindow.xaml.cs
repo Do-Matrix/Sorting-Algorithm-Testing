@@ -29,9 +29,11 @@ namespace WpfApp1
             InitializeComponent();
         }
 
+        SearchSortViewModel SSVM = new SearchSortViewModel();
+
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            SSVM.Type = (sender as ComboBox).SelectedItem.ToString();
         }
     }
 }

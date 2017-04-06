@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{77AF217A-DF48-4466-AF87-507EFE7AFDF0}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sorting_Algorithm_Testing</RootNamespace>
     <AssemblyName>Sorting Algorithm Testing</AssemblyName>
@@ -68,6 +68,7 @@
     <Compile Include="Sort_Types\Selection.cs" />
     <Compile Include="Sort_Types\Shell.cs" />
     <Compile Include="Sort_Types\Sort_Base.cs" />
+    <Compile Include="Tests\ListUtility.cs" />
     <Compile Include="Tests\TransactionMetrics.cs" />
     <Compile Include="Tests\Test Compiler.cs" />
     <Compile Include="Tests\Test Results.cs" />
@@ -114,6 +115,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tests\ListNameUtility.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

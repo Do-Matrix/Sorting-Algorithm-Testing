@@ -218,7 +218,7 @@ namespace Sorting_Algorithm_Testing.Tests
             for (int col = 0; col < searches.Length + 1; col++)
             {
                 if (col == 0) continue;
-                worksheet.Cells[1, col] = searches[col - 1].ToString();
+                worksheet.Cells[1, col + 1] = searches[col - 1].ToString();
             }
             for (int row = 0; row < searches[0].InternalResults.Count + 1; row++)
             {
@@ -233,6 +233,6 @@ namespace Sorting_Algorithm_Testing.Tests
                 }
             }
         }
-        #endregion
+            #endregion
     }
 }

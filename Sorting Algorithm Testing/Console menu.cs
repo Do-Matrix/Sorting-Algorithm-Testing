@@ -26,7 +26,7 @@ namespace Sorting_Algorithm_Testing
         Binary binary = new Binary();
         BinaryRecursive binaryRecursive = new BinaryRecursive();
         Linear linear = new Linear();
-        Test_Compiler compiler = new Test_Compiler();//Test_Compiler.load(Test_Compiler.SaveType.JSON);
+        Test_Compiler compiler = Test_Compiler.load(Test_Compiler.SaveType.JSON);
         const string menuMasterOptions = "Q: Quit\nR: restart";
         #endregion
 
@@ -340,10 +340,10 @@ namespace Sorting_Algorithm_Testing
         {
             int maxSize = isize;
             isize = 100;
-            int iterator = (maxSize - 100) / (iterations + 2);
+            int iterator = (maxSize - 100) / iterations;
             try
             {
-                for (int i = 0; i < iterations; i++)
+                for (int i = 0; i < iterations + 1; i++)
                 {
                     Console.WriteLine(isize);
                     compiler.Run(RandomGeneration.Int(isize), isize, searchItem, searches);
