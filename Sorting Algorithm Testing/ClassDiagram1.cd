@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sorting_Algorithm_Testing.Program" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.RandomGeneration" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACA=</HashCode>
+      <FileName>RandomGeneration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Sort_Types.Bubble" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAIAEAAAAAQAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Sort_Types\Bubble.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Sort_Types.Insertion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAIAEAAAAAQAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Sort_Types\Insertion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Sort_Types.QuickSort" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAg=</HashCode>
+      <FileName>Sort_Types\QuickSort.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Sort_Types.Radix" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEgAAAAQAACAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Sort_Types\Radix.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Sort_Types.Selection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAIAEAAAAAQAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Sort_Types\Selection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Tests.Test_Compiler" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAICAAAAAAAAAAAAACAAAAAAAAIBAAAAAAAA=</HashCode>
+      <FileName>Tests\Test Compiler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Tests.Test_Results" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAABAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Tests\Test Results.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sorting_Algorithm_Testing.Tests.TransationMetrics" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Tests\TransactionMetrics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Sorting_Algorithm_Testing.Sort_Types.ISort_Base" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sort_Types\Sort_Base.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
