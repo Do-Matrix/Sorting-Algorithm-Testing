@@ -63,6 +63,8 @@
     <Compile Include="Search_Types\Linear.cs" />
     <Compile Include="Sort_Types\MergeIterative.cs" />
     <Compile Include="Sort_Types\MergeRecursive.cs" />
+    <Compile Include="Sort_Types\Microsoft.cs" />
+    <Compile Include="Sort_Types\Quicksort.cs" />
     <Compile Include="Sort_Types\Radix.cs" />
     <Compile Include="Search_Types\Search_Base.cs" />
     <Compile Include="Sort_Types\Selection.cs" />

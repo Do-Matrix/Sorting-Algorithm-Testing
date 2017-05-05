@@ -23,6 +23,8 @@ namespace Sorting_Algorithm_Testing
         Radix radix = new Radix();
         Selection selection = new Selection();
         Shell shell = new Shell();
+        MSsort microsoft = new MSsort();
+        Quicksort quicksort = new Quicksort();
         Binary binary = new Binary();
         BinaryRecursive binaryRecursive = new BinaryRecursive();
         Linear linear = new Linear();
@@ -248,7 +250,7 @@ namespace Sorting_Algorithm_Testing
         public ISort_Base SortSelector()
         {
             ISort_Base sort = null;
-            Console.WriteLine("Select a sort: \n1: Bubble\n2: Insertion\n3: Merge(iterative)\n4: Merge(Recursive)\n5: Radix\n6: Selection\n7: Shell");
+            Console.WriteLine("Select a sort: \n1: Bubble\n2: Insertion\n3: Merge(iterative)\n4: Merge(Recursive)\n5: Radix\n6: Selection\n7: Shell\n8: QuickSort\n9: Microsoft Sort");
             string selectedOption = Console.ReadLine();
             switch (selectedOption)
             {
@@ -272,6 +274,12 @@ namespace Sorting_Algorithm_Testing
                     break;
                 case "7":
                     sort = shell;
+                    break;
+                case "8":
+                    sort = quicksort;
+                    break;
+                case "9":
+                    sort = microsoft;
                     break;
                 default:
                     MenuMasterSelections(selectedOption);
